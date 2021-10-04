@@ -45,11 +45,17 @@ function draw() {
       spacecraft.addImage(scimg1);
   }
 }
-  if(spacecraft.y <= (iss.y+70) && spacecraft.x <= (iss.x-10)){
+  /*if(spacecraft.y <= (iss.y+70) && spacecraft.x <= (iss.x-10)){
     hasDocked = true;
     textSize(25);
     fill("white")
     text("Docking Successful!", 200, 300);
-  }
+  }*/
+   /* if(spacecraft.y <= (iss.y+70) && spacecraft.x <= (iss.x-10)){
+    hasDocked = true;
+    textSize(25);
+    fill("white")
+    text("Docking UnSuccessful!", 200, 300);
+  }*/
   drawSprites();
 }
